@@ -1,1 +1,1 @@
-web: ./run
+web: mkdir log && ./run
