@@ -3,4 +3,8 @@ main(_) ->
   % c(hello_world), % Only works in REPL.
   inets:start(),
   hello_world:start(),
-  timer:sleep(100000).
+  waiter().
+
+waiter() ->
+  timer:sleep(100000),
+  waiter().
