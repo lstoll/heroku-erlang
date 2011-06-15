@@ -1,0 +1,2 @@
+compile:
+	erlc *.erl
